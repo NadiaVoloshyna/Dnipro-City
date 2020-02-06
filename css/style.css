@@ -1,0 +1,387 @@
+/*fonts*/
+@font-face {
+	font-family: `RobotoRegular`;
+	src: url(`fonts/Roboto-Regular.ttf`);
+}
+@font-face {
+	font-family: `RobotoBold`;
+	src: url(`fonts/Roboto-Bold.ttf`);
+}
+body {
+	font-family: `RobotoRegular`;
+}
+/*header*/
+header {
+ 	min-height: 250px; 
+}
+    .fon {
+    background-image: url(../img/History/wStreet.jpg); 
+	background-size: cover;
+	background-repeat: no-repeat; 
+	} 
+	.name {
+	margin-top: 40px;
+	}
+	.menu {
+	display: flex; 
+	justify-content: space-between;
+	}
+	.menu a {
+	display: block; 
+	margin-top: 45px; 
+	margin-bottom: -5px;
+	}
+	.menu a:hover {
+	opacity: 0.5;
+	}
+	.menu a img {
+	width: 150px;
+	height: 50px;
+	}  
+	/*wowslider */
+	.wslider {
+		padding: 0;
+	}
+	/*why choose Dnipro*/
+	.ground {
+		background-color: black;
+		margin-top: 20px; 
+	}
+	.icons {
+		background-color: black;
+	}
+	.advantages {
+		background-color: black;
+		padding: 30px 10px 20px 10px;
+	}
+	h2, h6, p {
+		color: #c0dbf7;
+	}
+	.heading {
+		margin-top: 25px;
+		margin-bottom: 40px;
+	}
+	.icons i {
+		color: #d0d533;
+		font-size: 20px;
+	}
+	.advantages p {
+		font-size: 0.8rem;
+	}
+	/*galary*/
+	.galary h2 {
+		color: black;
+		margin-top: 50px;
+	}
+	.photos {
+		margin-top: 30px;
+
+	}
+	.img {
+		padding: 10px;  
+	    margin: 20px;
+	    margin-bottom: 0;
+	    margin-top: 0;
+	    padding-top: 0;
+	    padding-left: 30px;
+	}
+	/*article*/
+	.galary .insights {
+		margin-top: 20px;
+	}
+	.text1, article p {
+		color: black;
+	}
+	.history .img1 {
+		float: left;
+		padding: 10px 20px 10px 0;
+	}
+	.history .img2 {
+		float: right;
+		padding: 10px 20px 10px 0;
+	}
+	.history img:hover {
+	-webkit-transform: scale(3);
+    -ms-transform: scale(3);
+    transform: scale(3);
+    transition: all 1.5s;
+	}
+	/*bxslider*/
+	.facts {
+		margin-bottom: 30px;
+		padding-top: 20px;
+	}
+	/*aside*/
+	.aside {
+		margin-top: 100px;
+	}
+	.aside p {
+		color: black;
+		padding: 10px 5px 10px 30px;
+		font-size: 0.8rem;
+	}
+	form label {
+		margin-top: 7px;
+	}
+	#quiz {
+		margin: 0 -15px 0 20px; 
+		padding: 10px 30px;
+		font-size: 0.9rem;
+		background-color: #c0dbf7;  
+	}
+	.sub {
+		color: #d0d533;
+		background-color: black;
+		float: right;
+		margin-top: 15px;
+	}  
+	/*footer*/
+	footer {
+		margin-top: 30px;
+	}
+	.foot {
+	background-color: black;
+	}
+	.soc-icons {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 20px;
+	}
+	.soc-icons a {
+ 	padding-left: 30px; 
+	} 
+	.soc-icons i {
+	font-size: 30px;
+	color: #c0dbf7;
+	}
+	.soc-icons a:hover {
+	opacity: 0.5;
+	} 	
+	.first {
+		padding-top: 20px;
+	}
+	.yellow {
+		color: #d0d533;
+		font-size: 1rem;
+	} 
+	.rights {
+		font-size: 0.8rem;
+		margin-bottom: 20px;
+		color: #c0dbf7;
+	}
+	.up {
+		font-size: 30px;
+		color: #d0d533;
+		position: relative;
+	}
+	.up:hover {
+		opacity: 0.5;
+	}
+	/*new classes*/
+	.green {
+		color: green;
+	}
+	.red {
+		color: red;
+	}
+	
+	                         @media (min-width: 992px) and (max-width:1200px) {
+	#quiz {
+		font-size: 0.84rem;
+		padding-left: 20px;
+	}
+    .img {
+    	padding-left: 0;
+	}
+	.photos img {
+	    max-width: 140%;
+	} 
+	}
+	                         @media (min-width: 768px) and (max-width:992px) {
+    .menu a img {
+	    width: 140px;
+	    height: 40px;
+	}  
+	.wslider {
+		margin-top: -60px;
+	}
+	.ground p, h6 {
+	    font-size: 0.7rem;
+	}
+	h2 {
+		font-size: 1.5rem;
+	}
+	h4 {
+		font-size: 1.2rem;
+	}
+	.photos {
+		margin-left: -55px;
+		margin-right: 20px;
+	}
+	.photos img {
+	    max-width: 250%; 
+	}
+	#quiz {
+	    font-size: 0.7rem;
+	    padding: 8px; 
+	}
+	.history {
+	    font-size: 0.8rem;
+	}
+	.aside p {
+	    font-size: 0.7rem;
+	}
+	.soc-icons a {
+	    padding-left: 20px; 
+	}  
+	.soc-icons i, .up {
+	    font-size: 25px;
+	}
+	}
+	                        @media (max-width:768px) {
+    .name {
+	    width: 85%;
+	}
+	.menu a img {
+	    width: 100px;
+	    height: 35px;
+	} 
+	.wslider {
+	    margin-top: -70px;
+	} 
+	h2 {
+	    font-size: 1.5rem;
+	}
+	h6 {
+		font-size: 0.7rem;
+	}
+    .advantages p {
+	    margin-bottom: 15px;
+	    font-size: 0.6rem;
+	}
+	.icons i {
+	    font-size: 15px;
+	}
+    .heading {
+	    margin-bottom: 10px;
+	}  
+	.photos {
+		margin-left: -55px;
+		margin-right: 20px;
+	}
+	.history {
+	    font-size: 0.8rem;
+	}
+	.aside {
+	    margin-top: 20px;
+	}
+	.aside p {
+	    margin-bottom: 0;
+	}
+	.galary h2 {
+		margin-top: 20px;
+	}
+    footer {
+	    margin-top: 60px;
+	}
+    .yellow {
+	    font-size: 0.8rem;
+	}
+	.soc-icons i {
+	    font-size: 20px;
+	}
+	.soc-icons a {
+	    padding-left: 10px; 
+	} 
+	.rights {
+	    font-size: 0.6rem;
+	}
+	.up {
+	    font-size: 20px;
+	} 
+	}
+  	                         @media (max-width:480px) {
+  	h6 {
+  		font-size: 0.6rem;
+  	}
+  	.photos img {
+	    max-width: 140%; 
+	}
+	.img {
+		margin:0;
+	}
+	.yellow {
+	    font-size: 0.7rem;
+	}
+	.soc-icons i {
+	    font-size: 15px;
+	}
+	.soc-icons a {
+	    padding-left: 10px; 
+	} 
+	.rights {
+	    font-size: 0.5rem;
+	}
+	.up {
+	    font-size: 15px;
+	} 
+	} 
+	                         @media (max-width:420px) {
+    .menu a img {
+	    width: 80px;
+	    height: 25px;
+	}  
+	.advantages p {
+	    font-size: 0.5rem;
+	    margin-bottom: 10px;
+	}	
+	h6 {
+		font-size: 0.5rem;
+	}
+	h4 {
+		font-size: 1.2rem;
+	}
+	#quiz {
+	    font-size: 0.7rem;
+	}
+    .yellow {
+	    font-size: 0.5rem;
+	}
+	.soc-icons i {
+	    font-size: 12px;
+	}
+	.soc-icons a {
+	    padding-left: 5px; 
+	} 
+	.rights {
+	    font-size: 0.4rem;
+	}
+	.up {
+	    font-size: 15px;
+	} 
+	}
+	 @media (max-width:360px) {
+	                        	.yellow {
+	                        	    font-size: 0.4rem;
+	                        	}
+	                        	.soc-icons {
+	                        		margin-top: 0;
+	                        	}
+	                        	.soc-icons i {
+	                        	    font-size: 10px;
+	                        	}
+	                        	.soc-icons a {
+	                        	    padding-left: 4px; 
+	                        	    margin-top: 0;
+	                        	} 
+	                            .rights {
+	                        	    margin-left: -35px;
+	                        	    padding-bottom: 20px; 
+	                        	} 
+	                        	.up {
+	                        	    font-size: 9px;
+	                        	    margin-left: 0;
+	                        	    padding-left: 120px;
+	                        	}                         	
+	                        	}                         
+	 	  
