@@ -11,9 +11,9 @@ body {
 	font-family: `RobotoRegular`;
 }
 /*header*/
-header {
+    header {
  	min-height: 250px; 
-}
+    }
     .fon {
     background-image: url(../img/History/wStreet.jpg); 
 	background-size: cover;
@@ -38,11 +38,11 @@ header {
 	width: 150px;
 	height: 50px;
 	}  
-	/*wowslider */
+/*wowslider */
 	.wslider {
 		padding: 0;
 	}
-	/*why choose Dnipro*/
+/*why choose Dnipro*/
 	.ground {
 		background-color: black;
 		margin-top: 20px; 
@@ -68,7 +68,7 @@ header {
 	.advantages p {
 		font-size: 0.8rem;
 	}
-	/*galary*/
+/*galary*/
 	.galary h2 {
 		color: black;
 		margin-top: 50px;
@@ -85,7 +85,7 @@ header {
 	    padding-top: 0;
 	    padding-left: 30px;
 	}
-	/*article*/
+/*article*/
 	.galary .insights {
 		margin-top: 20px;
 	}
@@ -101,17 +101,17 @@ header {
 		padding: 10px 20px 10px 0;
 	}
 	.history img:hover {
-	-webkit-transform: scale(3);
-    -ms-transform: scale(3);
-    transform: scale(3);
+	-webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
     transition: all 1.5s;
 	}
-	/*bxslider*/
+/*bxslider*/
 	.facts {
 		margin-bottom: 30px;
 		padding-top: 20px;
 	}
-	/*aside*/
+/*aside*/
 	.aside {
 		margin-top: 100px;
 	}
@@ -135,7 +135,7 @@ header {
 		float: right;
 		margin-top: 15px;
 	}  
-	/*footer*/
+/*footer*/
 	footer {
 		margin-top: 30px;
 	}
@@ -177,7 +177,7 @@ header {
 	.up:hover {
 		opacity: 0.5;
 	}
-	/*new classes*/
+/*new classes*/
 	.green {
 		color: green;
 	}
@@ -278,6 +278,9 @@ header {
 	.aside p {
 	    margin-bottom: 0;
 	}
+	#quiz {
+		margin: 0;
+	}
 	.galary h2 {
 		margin-top: 20px;
 	}
@@ -304,6 +307,15 @@ header {
   	h6 {
   		font-size: 0.6rem;
   	}
+  	.advantages {
+  		padding: 10px 0 10px 10px;
+  	}
+  	.advantages p {
+  		display: none; 
+  	}
+  	.photos {
+  		margin-left: 0;
+  	}
   	.photos img {
 	    max-width: 140%; 
 	}
@@ -313,12 +325,12 @@ header {
 	.yellow {
 	    font-size: 0.7rem;
 	}
+	.soc-icons {
+		margin-top: 0;
+	}
 	.soc-icons i {
 	    font-size: 15px;
 	}
-	.soc-icons a {
-	    padding-left: 10px; 
-	} 
 	.rights {
 	    font-size: 0.5rem;
 	}
@@ -326,14 +338,30 @@ header {
 	    font-size: 15px;
 	} 
 	} 
-	                         @media (max-width:420px) {
+	                         @media (max-width:440px) {
     .menu a img {
 	    width: 80px;
 	    height: 25px;
 	}  
+	.menu a {
+		margin-top: 15px;
+		padding-bottom: 5px;
+	}
+	.wslider {
+		margin-top: -120px;
+	}
 	.advantages p {
 	    font-size: 0.5rem;
 	    margin-bottom: 10px;
+	}
+	.photos {
+		margin-left: -35px;
+	}
+	.history img {
+		width: 150px;
+	}
+	h2 {
+		font-size: 1.2rem;
 	}	
 	h6 {
 		font-size: 0.5rem;
@@ -350,8 +378,8 @@ header {
 	.soc-icons i {
 	    font-size: 12px;
 	}
-	.soc-icons a {
-	    padding-left: 5px; 
+	.soc-icons a {                         	
+	    padding-left: 5px;   
 	} 
 	.rights {
 	    font-size: 0.4rem;
@@ -360,28 +388,46 @@ header {
 	    font-size: 15px;
 	} 
 	}
-	 @media (max-width:360px) {
-	                        	.yellow {
-	                        	    font-size: 0.4rem;
-	                        	}
-	                        	.soc-icons {
-	                        		margin-top: 0;
-	                        	}
-	                        	.soc-icons i {
-	                        	    font-size: 10px;
-	                        	}
-	                        	.soc-icons a {
-	                        	    padding-left: 4px; 
-	                        	    margin-top: 0;
-	                        	} 
-	                            .rights {
-	                        	    margin-left: -35px;
-	                        	    padding-bottom: 20px; 
-	                        	} 
-	                        	.up {
-	                        	    font-size: 9px;
-	                        	    margin-left: 0;
-	                        	    padding-left: 120px;
-	                        	}                         	
-	                        	}                         
+	                          @media (max-width:360px) {
+	.menu a img {
+	    width: 70px;
+	    height: 25px;
+	}  
+	.icons {
+		margin-left: -30px;
+	}
+	h4 {
+		font-size: 1rem;
+	}
+	.aside {
+		margin-top: 0;
+	}
+	.aside p {
+		font-size: 0.7rem;
+		padding: 0;
+		padding-bottom: 10px;
+	}
+	#quiz {
+		padding-left: 10px;
+		font-size: 0.8rem;
+	}
+	.first, .rights {
+		margin-left: -40px;
+	}
+	.soc-icons {                        	
+	    margin-left: -20px;                  		
+	}
+	.soc-icons a {                        	
+	    padding-left: 13px;                     	    
+	    margin-top: 0;                    	    
+	} 
+	.up {                        	               	    
+	    margin-left: 0;                    	    
+	    padding-left: 120px;  
+	}
+	.yellow {
+	    font-size: 0.5rem;
+	}             
+	}                        	                         
+	 	                  
 	 	  
